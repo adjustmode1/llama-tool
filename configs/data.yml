@@ -1,0 +1,13 @@
+model:
+  base: 'meta-llama/Meta-Llama-3-8B-Instruct'
+  genQuestion: 'google/gemma-2-2b-it'
+
+folder:
+  dataset: '/content/dataset'
+  saveFolder: '/content/drive/MyDrive'
+
+common:
+  isCheckGPU: True
+
+genDataTrain:
+  resume: 0
